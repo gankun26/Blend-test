@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  color: #333;
+  background-image: url(./img/BLEND.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+    background-size: contain;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    padding: 1.5rem;
+    background-size: cover;
+  }
+}
+@media (min-width: 1025px) {
+  body {
+    padding: 2rem;
+    background-size: cover;
+  }
+}
+
+
+.app{
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-bottom: 300px;
+
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+
+button{
+  background-color: #0f3017;
+  color: #efefef;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+  margin-right: 10px;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.todo-form{
+padding-bottom: 1.5rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.complete{
+  background-color: #618cdb;
+}
+
+.delete{
+  background-color: #e24b37;
+}
+
+.lista-tarefas {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+@media (max-width: 600px) {
+  .lista-tarefas {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #666;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .lista-tarefas {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #555;
+  }
+}
+@media (min-width: 1025px) {
+  .lista-tarefas {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555; 
+  }
+}
+
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .todo {
+    padding: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .todo {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+  }
+}
+@media (min-width: 1025px) {
+  .todo {
+    padding: 12px;
+    margin-bottom: 12px; 
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+
+.filter, .search{
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.filter-options div{
+  flex: 1 1 0 ;
+}
