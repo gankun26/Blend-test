@@ -1,6 +1,8 @@
 # React + Vite
 
 #Todo List Application
+
+
 Um aplicativo de lista de tarefas desenvolvido em React, que permite aos usuários adicionar, excluir e marcar tarefas como concluídas. O aplicativo busca dados iniciais da API JSONPlaceholder e oferece funcionalidades de pesquisa, filtragem e ordenação.
 
 Funcionalidades
